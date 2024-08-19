@@ -7,7 +7,8 @@ object KoinDI {
     fun init() {
         startKoin {
             modules(
-
+                ktorModule,
+                coinsModule
             )
         }
     }
